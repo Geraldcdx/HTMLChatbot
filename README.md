@@ -1,10 +1,11 @@
-# HTML Chatbot - [Click here to try the bot](https://github.com/Geraldcdx/HTMLChatbot/blob/master/prototype.md)
-*This is the HTML Chatbot, you can have multiple people take attendence on this chatbot! There are admin(ones that can edit the row,column, summation headers and groups) and there are users that input attendance*
+# HTML Chatbot
+*This is the HTML Chatbot, you can have multiple people take attendence on this chatbot! There are admin(ones that can edit the row,column, summation headers and groups) and there are users that input attendance* 
 ![Alt-text](https://github.com/Geraldcdx/HTMLChatbot/blob/master/Chatbot.png)
 
 ### This is written using google spreadsheets in google app script(GAS). Here is a link that can help you set it up and understand GAS.
 https://www.youtube.com/watch?v=bwU1MSLi33Q
 ### This is simple to deploy with no cost and can be done through the video above in less than 30 minutes.
+### [Click here to try the Bot!](https://github.com/Geraldcdx/HTMLChatbot/blob/master/prototype.md)
 
 ## Users:
   * Users just need to know their user password and group that they are taking attendance for. The users will be getting a list of groups from the admin
