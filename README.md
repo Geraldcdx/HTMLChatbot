@@ -1,4 +1,4 @@
-# HTML Chatbot
+# HTML Chatbot - [Click here to try the bot](https://github.com/Geraldcdx/HTMLChatbot/blob/master/prototype.md)
 *This is the HTML Chatbot, you can have multiple people take attendence on this chatbot! There are admin(ones that can edit the row,column, summation headers and groups) and there are users that input attendance*
 ![Alt-text](https://github.com/Geraldcdx/HTMLChatbot/blob/master/Chatbot.png)
 
