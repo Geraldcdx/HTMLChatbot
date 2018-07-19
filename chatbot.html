@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <br><br><br>
+    <i style="font-family:Georgia; font-size:70px;color:white;"><center>        Attendance ChatBot</center><br><br></i>
+    <!--<p style="zoom:2;-moz-transform-origin: 0 0;color:white;" id="demo"></p>-->
+    <i id="demo" style="font-size:3.8vw;color:white;"></i>
+    <br><br><br><br>
+    <body background="https://images.unsplash.com/photo-1515283948897-196767b6c1f3?ixlib=rb-0.3.5&s=8c580d3906fa36482ce50205df1a1cda&auto=format&fit=crop&w=1234&q=80">
+        <form style="zoom:3; -moz-transform: scale(3);-moz-transform-origin: 0 0;">
+            <input type="text" id="text" value="" name="text" placeholder="Type /start to begin" />
+            <input type="button" id="button" onClick="formSubmit()" value="Submit" />
+        </form>
+    </body>
+    <script type="text/javascript">
+        function formSubmit() {
+            google.script.run.receiveText(document.forms[0]);
+            google.script.run.withSuccessHandler(onSuccessed).items();
+            
+        }          
+    function onSuccessed(items) {
+    document.getElementById('demo').innerHTML = items;
+    document.getElementById('text').value=" ";
+  }
+    </script>
+
+</html>
