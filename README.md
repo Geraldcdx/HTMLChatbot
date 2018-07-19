@@ -1,10 +1,10 @@
-# HTMLChatbot
+# HTML Chatbot
 *This is the HTML Chatbot, you can have multiple people take attendence on this chatbot! There are admin(ones that can edit the row,column, summation headers and groups) and there are users that input attendance*
 ![Alt-text](https://github.com/Geraldcdx/HTMLChatbot/blob/master/Chatbot.png)
 
 ### This is written using google spreadsheets in google app script(GAS). Here is a link that can help you set it up and understand GAS.
 https://www.youtube.com/watch?v=bwU1MSLi33Q
-### This is simple to deploy with no cost and can be done through the video above
+### This is simple to deploy with no cost and can be done through the video above.
 
 ## Users:
   * Users just need to know their user password and group that they are taking attendance for. The users will be getting a list of groups from the admin
@@ -38,7 +38,7 @@ Commands:<br>#addHeader (insert header) - to input a new header <br>#delHeader (
 #sum - views all the summation headers<br>#addSub (insert subgroup) - adds a subgroup<br>#delSub - deletes the previous subgroup inputted<br>
 #sub - show you all the subgroups created<br>#confirm - sets all the headers and rows to be used for users<br>
 #clearSubs/clearSums/clearRows/clearHeaders - use to clear any of the items, use when there is a error/bug<br>
-#Attendance w/o name - Sends you a message on all the inputted attendance<br><br>
+#Attendance (you can add words here and it will display on your total) - Sends you a message on all the inputted attendance<br><br>
 
 # Personalise Code
 ## Here is where you change the password for admin and user(to prevent other people from access your sheet):
